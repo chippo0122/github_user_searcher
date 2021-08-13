@@ -1,0 +1,17 @@
+@import "~bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Open+Sans+Condensed:wght@300&display=swap');
+
+$font-noto: 'Noto Sans TC', sans-serif;
+$font-open: 'Open Sans Condensed', sans-serif;
+
+body {
+    background-color: #222;
+}
+
+.text-open {
+    font-family: $font-open;
+}
+
+.text-noto {
+    font-family: $font-noto;
+}

@@ -1,0 +1,16 @@
+.icon-color {
+    color: #c9510c
+}
+
+.btn-search {
+    background-color: #c9510c;
+}
+
+.search-input {
+    background-color: transparent;
+    border: 1px solid #888;
+
+    &:focus-within {
+        background-color: transparent !important;
+    } 
+}

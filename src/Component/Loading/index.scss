@@ -1,0 +1,40 @@
+.loading-wrap {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(34, 34, 34, 0.8);
+}
+
+.loading-gear {
+    display: block;
+    font-size: 3rem;
+    color: #fff;
+    animation: gear-rotate 3s ease-in-out infinite;
+}
+
+@keyframes gear-rotate {
+    0%{
+        color: #fff;
+        text-shadow: 0 0 5px #c9510c, 0 0 15px #c9510c, 0 0 30px #c9510c8e;
+        transform: rotate(0deg);
+    }
+
+    50%{
+        color: #e68750;
+        transform: rotate(180deg);
+        text-shadow: 0 0 10px #ee7129;
+    }
+
+    100% {
+        color: #fff;
+        text-shadow: 0 0 5px #c9510c, 0 0 15px #c9510c, 0 0 30px #c9510c8e;
+        transform: rotate(360deg);
+    }
+}
+//#c9510c
